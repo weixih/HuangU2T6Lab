@@ -22,7 +22,8 @@ public class BabyParrot
     {
         String str = "Species: " + species + "\n";
         str += "Name: " + name + "\n";
-        str += "Age: " + age;
+        str += "Age: " + age + "\n";
+        str += "Weight " + weight;
         return str;
     }
 }
